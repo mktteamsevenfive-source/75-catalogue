@@ -185,17 +185,13 @@
 	})();
 	</script>
 	<!-- Floating Download Button -->
-	<a href="#" id="custom-download-btn" style="position: fixed; bottom: 30px; right: 30px; background-color: #0052A4; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-family: sans-serif; font-weight: bold; font-size: 16px; z-index: 99999; box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 8px; transition: transform 0.2s; cursor: pointer;">
+	<a href="https://drive.google.com/file/d/1OOiGHCMxep6kR-cgtDwvzQ92F3nFZ7XA/view?usp=drive_link" id="custom-download-btn" target="_blank" style="position: fixed; bottom: 30px; right: 30px; background-color: #0052A4; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-family: sans-serif; font-weight: bold; font-size: 16px; z-index: 99999; box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 8px; transition: transform 0.2s; cursor: pointer;">
 		<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
 		Download PDF
 	</a>
 	<script>
 		document.getElementById('custom-download-btn').addEventListener('mouseenter', function() { this.style.transform = 'scale(1.05)'; });
 		document.getElementById('custom-download-btn').addEventListener('mouseleave', function() { this.style.transform = 'scale(1)'; });
-		document.getElementById('custom-download-btn').addEventListener('click', function(e) { 
-			e.preventDefault();
-			alert('ตอนนี้ยังไม่มีไฟล์ PDF ผูกไว้ครับ รบกวนนำไฟล์ PDF มาใส่ในโฟลเดอร์แล้วเปลี่ยนลิงก์ (href) ตรงปุ่มดาวน์โหลดครับ'); 
-		});
 	</script>
 </body>
 
